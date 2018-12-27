@@ -12,6 +12,17 @@
 					<a href="/index.html">Project</a>
 				</li>			
 			{% endif %}
+			{% if page.path == "News.html" %}
+			<span class="title">
+				<li>
+					<a href="/News.html">News</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/News.html">News</a>
+				</li>			
+			{% endif %}
 			{% if page.path == "Publication.html" %}
 			<span class="title">
 				<li>
@@ -34,17 +45,7 @@
 					<a href="/Contact.html">Contact</a>
 				</li>			
 			{% endif %}
-			{% if page.path == "News.html" %}
-			<span class="title">
-				<li>
-					<a href="/News.html">News</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/News.html">News</a>
-				</li>			
-			{% endif %}
+
 		</div>
 	<!--  <div class="description"> {{ site.motto }} </div>		
 	</div> -->
